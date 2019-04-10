@@ -1,0 +1,16 @@
+[
+  {
+    "token": "0xac55641cbb734bdf6510d1bbd62e240c2409040f",
+    "blockchain": "ETC",
+    "action": "buy",
+    "price": "0.00008",
+    "houretherlimit": "5"
+  },
+  {
+    "token": "0xb9440022a095343b440d590fcd2d7a3794bd76c8",
+    "blockchain": "ETH",
+    "action": "sell",
+    "price": "0.00005",
+    "houretherlimit": "0.01"
+  }
+]

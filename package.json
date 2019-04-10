@@ -1,0 +1,43 @@
+{
+  "name": "@saturnnetwork/pricewatch-bot",
+  "version": "0.0.6",
+  "description": "Watch a price of a given token on Saturn Network and auto buy/sell",
+  "homepage": "https://forum.saturn.network/t/saturn-trading-bot-guides/4046",
+  "bugs": "https://forum.saturn.network/t/saturn-trading-bot-guides/4046",
+  "main": "pricewatch-bot.js",
+  "bin": "./pricewatch-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "eth",
+    "etc",
+    "ethereum",
+    "token",
+    "erc20",
+    "erc223",
+    "saturn",
+    "dex",
+    "decentralized",
+    "trading",
+    "bot",
+    "price"
+  ],
+  "author": "Saturn Network",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@saturnnetwork/saturn.js": "^0.1.2",
+    "axios": "^0.18.0",
+    "bignumber.js": "^8.1.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "easy-table": "^1.1.1",
+    "ethers": "^4.0.27",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0"
+  }
+}
