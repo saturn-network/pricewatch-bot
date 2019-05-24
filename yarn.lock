@@ -2,16 +2,15 @@
 # yarn lockfile v1
 
 
-"@saturnnetwork/saturn.js@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@saturnnetwork/saturn.js/-/saturn.js-0.1.2.tgz#7c2512053e9a91ebbe120d16175624ba0c7eee0f"
-  integrity sha512-HysDJ0D2iiUiAvcqglHK7qqcZQg6FBUFz76XlHBjYPm8iM6jQfXAIp/HLJg1m8qyDZi3ixsZCT/PgMRhqbIzlQ==
+"@saturnnetwork/saturn.js@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@saturnnetwork/saturn.js/-/saturn.js-0.1.3.tgz#061eb76e6b8636224bfdbd4fa7bc2d8714b698b0"
+  integrity sha512-VcWg8ydbXlicot1PhhNV5QdtSPv+GSVzXIITLzLsMSmlBNgcIcN2c8b4xZMPGQnv+JBOvtzPrjpZgb4lA6qp+Q==
   dependencies:
     axios "^0.18.0"
+    bignumber.js "^8.1.1"
     chalk "^2.4.1"
     ethers "^4.0.27"
-    fraction.js "^4.0.11"
-    from-exponential "^1.0.0"
     lodash "^4.17.11"
     ora "^3.0.0"
 
@@ -168,16 +167,6 @@ follow-redirects@^1.3.0:
   integrity sha512-m/pZQy4Gj287eNy94nivy5wchN3Kp+Q5WgUPNy5lJSZ3sgkVKSYV/ZChMAQVIgx1SqfZ2zBZtPA2YlXIWxxJOQ==
   dependencies:
     debug "^3.2.6"
-
-fraction.js@^4.0.11:
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.0.12.tgz#0526d47c65a5fb4854df78bc77f7bec708d7b8c3"
-  integrity sha512-8Z1K0VTG4hzYY7kA/1sj4/r1/RWLBD3xwReT/RCrUCbzPszjNQCCsy3ktkU/eaEqX3MYa4pY37a52eiBlPMlhA==
-
-from-exponential@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/from-exponential/-/from-exponential-1.0.0.tgz#feea3f96dc6861dca784599e391c24bdb48d28f2"
-  integrity sha512-lr7d141V95FOV+W9B2f4D5gNM2Tm6Qk5GOBGwr6ZukwhpWHldqJw30xI+UkVBYi1cQu3afLQQD9QEgxpehT9wg==
 
 has-flag@^3.0.0:
   version "3.0.0"

@@ -1,6 +1,6 @@
 {
   "name": "@saturnnetwork/pricewatch-bot",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Watch a price of a given token on Saturn Network and auto buy/sell",
   "homepage": "https://forum.saturn.network/t/saturn-trading-bot-guides/4046",
   "bugs": "https://forum.saturn.network/t/saturn-trading-bot-guides/4046",
@@ -30,7 +30,7 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "@saturnnetwork/saturn.js": "^0.1.2",
+    "@saturnnetwork/saturn.js": "^0.1.3",
     "axios": "^0.18.0",
     "bignumber.js": "^8.1.1",
     "chalk": "^2.4.1",
