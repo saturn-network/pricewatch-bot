@@ -29,8 +29,8 @@ function getChainId(chain) {
 }
 
 function rpcNode(chain) {
-  if (chain === 'ETC') { return 'https://etc-rpc.binancechain.io/' }
-  if (chain === 'ETH') { return 'https://mainnet.infura.io/mew' }
+  if (chain === 'ETC') { return 'https://www.ethercluster.com/etc' }
+  if (chain === 'ETH') { return 'https://cloudflare-eth.com' }
   console.log('Unknown chainId for chain', chain)
   process.exit(1)
 }
